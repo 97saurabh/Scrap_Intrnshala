@@ -31,8 +31,5 @@ class JobSpider(scrapy.Spider):
             iteams["link"]="https://internshala.com"+link[i]
             yield iteams
         next_page=response.css("nav").css("a#navigation-forward::attr(href)").get()
-        j=200
-        #if next_page is not None:
-        if j!=0:
-            j=j-2
+        if next_page is not None:
             yield response.follow(next_page,callback=self.parse)
