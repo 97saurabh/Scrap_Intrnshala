@@ -7,7 +7,7 @@ Details are in Boxs only these data will be scrapped.
 
 
 
-Code will scrap more than 200 Pages of Internshala.
+Code will scrap data from more than 200 Pages of Internshala.
 
 ![GitHub Logo](/images/cmd.png)
 
@@ -21,5 +21,5 @@ Data Will be Stored on MySQL Server
 
 
 
-Further Excel Sheet can be constructed
+Further Excel Sheet can be constructed and one can see all the information there.
 ![GitHub Logo](/images/EXCEL_SHEET.png)
